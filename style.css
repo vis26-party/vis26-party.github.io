@@ -142,7 +142,16 @@ section { padding-top: 44px; }
 
 .card .btn { margin-top: auto; }
 
-.card.how { grid-column: 1 / -1; }
+.card.when {
+  grid-column: 1 / -1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px 40px;
+}
+
+.card.when > *,
+.card.when .btn { margin: 0; }
 
 .countdown {
   display: flex;
