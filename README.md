@@ -10,3 +10,5 @@ Plain HTML/CSS/JS, served with GitHub Pages. Preview locally with `python3 -m ht
 - `style.css`, `script.js` — styling and countdown
 - `party.ics` — add-to-calendar file
 - `logos/` — host logos (trimmed PNGs; per-logo height set via `--h` in index.html)
+
+After changing `style.css` or `script.js`, bump the `?v=` number on their links in `index.html` so browsers don't keep the old cached copy (GitHub Pages caches for 10 minutes).
