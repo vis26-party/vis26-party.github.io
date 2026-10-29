@@ -4,13 +4,13 @@ PRODID:-//West Coast Utah Party//VIS 26//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:west-coast-utah-party-vis26@rsmith0914.github.io
+UID:west-coast-utah-party-vis26@vis26-party.github.io
 DTSTAMP:20261029T170000Z
 DTSTART:20261111T010000Z
 DTEND:20261111T050000Z
 SUMMARY:West Coast / Utah Party at VIS 26
 LOCATION:Howl at the Moon\, 184 High Street\, Boston\, MA
-DESCRIPTION:Co-hosted by Tableau\, UBC Vancouver\, University of Washington\, Ridge AI\, Berkeley\, and Utah. https://rsmith0914.github.io/vis26-party/
-URL:https://rsmith0914.github.io/vis26-party/
+DESCRIPTION:Co-hosted by Tableau\, UBC Vancouver\, University of Washington\, Ridge AI\, Berkeley\, and Utah. https://vis26-party.github.io/
+URL:https://vis26-party.github.io/
 END:VEVENT
 END:VCALENDAR

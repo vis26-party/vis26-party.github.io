@@ -10,94 +10,142 @@
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Zilla+Slab:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="hero">
-    <div class="moon" aria-hidden="true"></div>
+  <div class="topbar">VIS 26 &middot; Boston</div>
 
+  <header class="hero">
+    <!-- --h sizes each logo so they carry roughly equal visual area -->
     <div class="logos">
-      <a href="https://research.tableau.com/"><img src="logos/tableau.png" alt="Tableau"></a>
-      <a href="http://www.cs.ubc.ca/group/infovis/"><img src="logos/ubc.png" alt="UBC Vancouver"></a>
-      <a href="http://idl.cs.washington.edu/"><img src="logos/uw.svg" alt="University of Washington"></a>
-      <a href="https://ridgedata.ai/"><img src="logos/ridge-ai.svg" alt="Ridge AI"></a>
-      <a href="https://people.ischool.berkeley.edu/~hearst/"><img src="logos/berkeley.svg" alt="UC Berkeley"></a>
-      <img src="logos/utah.svg" alt="University of Utah">
+      <a href="https://research.tableau.com/" style="--h:34px"><img src="logos/tableau.png" alt="Tableau"></a>
+      <a href="http://www.cs.ubc.ca/group/infovis/" style="--h:34px"><img src="logos/ubc.png" alt="UBC Vancouver"></a>
+      <a href="http://idl.cs.washington.edu/" style="--h:34px"><img src="logos/uw.png" alt="University of Washington"></a>
+      <a href="https://ridgedata.ai/" style="--h:29px"><img src="logos/ridge-ai.png" alt="Ridge AI"></a>
+      <a href="https://people.ischool.berkeley.edu/~hearst/" style="--h:41px"><img src="logos/berkeley.png" alt="UC Berkeley"></a>
+      <a href="https://www.sci.utah.edu/" style="--h:62px"><img src="logos/sci.png" alt="SCI Institute, The University of Utah"></a>
     </div>
 
+    <h1>West Coast / Utah Party <span>at VIS 26</span></h1>
+    <p class="summary">A joint party for everyone at VIS, hosted by Tableau, UBC, UW, Ridge AI, Berkeley, and Utah. Come say hi!</p>
     <p class="intro">
       The West Coast party returns, co-hosted by <a href="https://research.tableau.com/">Tableau</a>,
       <a href="http://www.cs.ubc.ca/group/infovis/">UBC Vancouver</a>,
       <a href="http://idl.cs.washington.edu/">University of Washington</a>,
       <a href="https://ridgedata.ai/">Ridge AI</a>, and
       <a href="https://people.ischool.berkeley.edu/~hearst/">Berkeley</a>.
-      This year we're joining forces with Utah, for a single joint party!
+      This year we're joining forces with <a href="https://www.cs.utah.edu/">Utah</a>, for a single joint party!
     </p>
-
-    <h1>West Coast / Utah Party <span>at VIS 26</span></h1>
-    <p class="when">Tue Nov 10 2026, 8pm&ndash;midnight &middot; Howl at the Moon, Boston</p>
-
-    <div class="countdown" id="countdown" aria-live="polite">
-      <div><span id="cd-days">00</span><small>Days</small></div>
-      <div><span id="cd-hours">00</span><small>Hours</small></div>
-      <div><span id="cd-mins">00</span><small>Minutes</small></div>
-      <div><span id="cd-secs">00</span><small>Seconds</small></div>
-    </div>
-    <p class="countdown-done" id="countdown-done" hidden></p>
-
-    <div class="actions">
-      <a class="btn primary" href="party.ics" download>Add to calendar</a>
-      <a class="btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=184+High+St,+Boston,+MA+02110">Directions</a>
-    </div>
   </header>
 
   <main>
-    <section>
-      <h2>What's New!</h2>
-      <ul class="news">
-        <li>
-          <a href="https://www.tableau.com/research">Tableau Research</a> is proud to be a bronze sponsor at this year’s VIS conference! The team is presenting two workshop papers at <a href="https://sites.google.com/monash.edu/hfia-workshop">HFIA</a> and a TVCG paper, <a href="https://ieeexplore.ieee.org/document/10745882/">From Dashboard Zoo to Census: A Case Study with Tableau Public</a>. <a href="https://arjun010.github.io/">Arjun Srinivasan</a> and <a href="https://www.tableau.com/research/people/vidya-setlur">Vidya Setlur</a> will be attending in Vienna; be sure to stop by, say hello, and learn more about our group’s work. We’re also hiring interns for the summer!
-        </li>
-        <li>
-          Tamara's <a href="http://www.cs.ubc.ca/group/infovis/">InfoVis Group at UBC Vancouver</a> will have three PhD candidates at VIS this year. Matt Oddo will present his TVCG paper <a href="https://www.cs.ubc.ca/group/infovis/pubs/2026/unlabelledgraphstasks/">Visualization Tasks for Unlabeled Graphs</a>. Ryan Smith will present his VIS paper <a href="https://www.cs.ubc.ca/group/infovis/pubs/2026/healthtale/">HealthTale: A Patient-Centric Health Story Visualization Tool</a> and participate in the Doctoral Colloquium. New PhD student Joe Hilleary will also attend. Tamara will present the TVCG paper <a href="https://www.cs.ubc.ca/group/infovis/pubs/2025/viva/">VIVA: Virtual Healthcare Interactions Using Visual Analytics, With Controllability Through Configuration</a> and a tutorial on <a href="https://www.cs.ubc.ca/~tmm/vadbook/">Visualization Analysis and Design</a>. She is co-editor of the <a href="https://www.routledge.com/AK-Peters-Visualization-Series/book-series/CRCVIS">AK Peters Visualization book series</a> with CRC/Routledge, which will have a physical table at VIS. UBC welcomes Andrew McNutt, who will join us as an assistant professor in January 2027.
-        </li>
-        <li>
-          Jeff and Leilani continue to co-lead the <a href="https://idl.cs.washington.edu/">Interactive Data Lab at UW</a>, though Jeff is currently on sabbatical spending time with his start-up <a href="https://www.ridgedata.ai/">Ridge AI</a>. We’re excited to celebrate a 10 Year Test-of-Time Award for <a href="https://idl.uw.edu/papers/vega-lite">Vega-Lite</a> (with alums Arvind Satyanarayan, Dominik Moritz, and Kanit Wongsuphasawat). Medina Lamkin and Heer Patel will co-present their VIS paper <a href="https://arxiv.org/pdf/2608.20090">What Do Visualization Instructors Want Students to Learn? Introducing a Concept Inventory for Visualization Design</a>.
-        </li>
-        <li>
-          <a href="https://people.ischool.berkeley.edu/~hearst/">Marti Hearst's</a> group at UC Berkeley is represented at Vis this year by PhD student <a href="https://jasmineyshih.github.io/">Jasmine Shih</a>’s research on <a href="https://arxiv.org/pdf/2610.19337">Two Decades of Community-based Chart Revisions from Wikimedia Commons</a> and Chase Stokes’ (now graduated with his PhD!) VisXVision workshop paper on <a href="https://arxiv.org/pdf/2609.22477">Visual Embellishments are Potential Distractions in Double-Column Reading</a> (with Cindy Xiong’s student Songwen Hu)
-        </li>
-      </ul>
+    <section class="details" aria-label="Party details">
+      <article class="card">
+        <h2>What</h2>
+        <p>The West Coast / Utah Party at VIS 26 &mdash; one joint party for both crews and all their friends.</p>
+      </article>
+
+      <article class="card">
+        <h2>When</h2>
+        <p class="big">Tue Nov 10 2026<br>8pm&ndash;midnight</p>
+        <div class="countdown" id="countdown" aria-live="polite">
+          <div><span id="cd-days">00</span><small>Days</small></div>
+          <div><span id="cd-hours">00</span><small>Hrs</small></div>
+          <div><span id="cd-mins">00</span><small>Min</small></div>
+          <div><span id="cd-secs">00</span><small>Sec</small></div>
+        </div>
+        <p class="countdown-done" id="countdown-done" hidden></p>
+        <a class="btn" href="party.ics" download>Add to calendar</a>
+      </article>
+
+      <article class="card">
+        <h2>Where</h2>
+        <p class="big"><a href="https://home.howlatthemoon.com/boston/">Howl at the Moon, Boston</a></p>
+        <p>184 High Street Boston, MA</p>
+        <a class="btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=184+High+St,+Boston,+MA+02110">Directions</a>
+      </article>
+
+      <article class="card">
+        <h2>How</h2>
+        <p>It's about 20 minutes from the Westin Copley, if you take the Orange Line from Back Bay 4 stops to State and then walk for 8 minutes (State to Kilby to Batterymarch).</p>
+        <p>Find a host from the Tableau, UBC, UW, Utah, or Berkeley research groups, to see if we still have drink tickets left. Otherwise, there will be a cash bar. It’s fine to bring other people along.</p>
+      </article>
     </section>
 
-    <section class="venue">
-      <h2>Getting there</h2>
-      <div class="venue-grid">
-        <div>
-          <p class="address">
-            <a href="https://home.howlatthemoon.com/boston/">Howl at the Moon, Boston</a><br>
-            184 High Street Boston, MA
-          </p>
-          <p>It's about 20 minutes from the Westin Copley, if you take the Orange Line from Back Bay 4 stops to State and then walk for 8 minutes (State to Kilby to Batterymarch).</p>
-          <p>Find a host from the Tableau, UBC, UW, UVic, or Berkeley research groups, to see if we still have drink tickets left. Otherwise, there will be a cash bar. It’s fine to bring other people along.</p>
-        </div>
-        <iframe class="map" title="Map to Howl at the Moon, 184 High St, Boston" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-          src="https://www.google.com/maps?q=Howl+at+the+Moon,+184+High+St,+Boston,+MA+02110&amp;output=embed"></iframe>
+    <iframe class="map" title="Map to Howl at the Moon, 184 High St, Boston" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+      src="https://www.google.com/maps?q=Howl+at+the+Moon,+184+High+St,+Boston,+MA+02110&amp;output=embed"></iframe>
+
+    <section>
+      <h2 class="section-title">What's New!</h2>
+      <div class="news">
+        <article>
+          <h3>Tableau Research</h3>
+          <p><a href="https://www.tableau.com/research">Tableau Research</a> is proud to be a bronze sponsor at this year’s VIS conference! The team is presenting two workshop papers at <a href="https://sites.google.com/monash.edu/hfia-workshop">HFIA</a> and a TVCG paper, <a href="https://ieeexplore.ieee.org/document/10745882/">From Dashboard Zoo to Census: A Case Study with Tableau Public</a>. <a href="https://arjun010.github.io/">Arjun Srinivasan</a> and <a href="https://www.tableau.com/research/people/vidya-setlur">Vidya Setlur</a> will be attending in Boston; be sure to stop by, say hello, and learn more about our group’s work. We’re also hiring interns for the summer!</p>
+        </article>
+        <article>
+          <h3>UBC InfoVis Group</h3>
+          <p>Tamara's <a href="http://www.cs.ubc.ca/group/infovis/">InfoVis Group at UBC Vancouver</a> will have three PhD candidates at VIS this year. Matt Oddo will present his TVCG paper <a href="https://www.cs.ubc.ca/group/infovis/pubs/2026/unlabelledgraphstasks/">Visualization Tasks for Unlabeled Graphs</a>. Ryan Smith will present his VIS paper <a href="https://www.cs.ubc.ca/group/infovis/pubs/2026/healthtale/">HealthTale: A Patient-Centric Health Story Visualization Tool</a> and participate in the Doctoral Colloquium. New PhD student Joe Hilleary will also attend. Tamara will present the TVCG paper <a href="https://www.cs.ubc.ca/group/infovis/pubs/2025/viva/">VIVA: Virtual Healthcare Interactions Using Visual Analytics, With Controllability Through Configuration</a> and a tutorial on <a href="https://www.cs.ubc.ca/~tmm/vadbook/">Visualization Analysis and Design</a>. She is co-editor of the <a href="https://www.routledge.com/AK-Peters-Visualization-Series/book-series/CRCVIS">AK Peters Visualization book series</a> with CRC/Routledge, which will have a physical table at VIS. UBC welcomes Andrew McNutt, who will join us as an assistant professor in January 2027.</p>
+        </article>
+        <article>
+          <h3>UW Interactive Data Lab</h3>
+          <p>Jeff and Leilani continue to co-lead the <a href="https://idl.cs.washington.edu/">Interactive Data Lab at UW</a>, though Jeff is currently on sabbatical spending time with his start-up <a href="https://www.ridgedata.ai/">Ridge AI</a>. We’re excited to celebrate a 10 Year Test-of-Time Award for <a href="https://idl.uw.edu/papers/vega-lite">Vega-Lite</a> (with alums Arvind Satyanarayan, Dominik Moritz, and Kanit Wongsuphasawat). Medina Lamkin and Heer Patel will co-present their VIS paper <a href="https://arxiv.org/pdf/2608.20090">What Do Visualization Instructors Want Students to Learn? Introducing a Concept Inventory for Visualization Design</a>.</p>
+        </article>
+        <article>
+          <h3>UC Berkeley (Hearst group)</h3>
+          <p><a href="https://people.ischool.berkeley.edu/~hearst/">Marti Hearst's</a> group at UC Berkeley is represented at Vis this year by PhD student <a href="https://jasmineyshih.github.io/">Jasmine Shih</a>’s research on <a href="https://arxiv.org/pdf/2610.19337">Two Decades of Community-based Chart Revisions from Wikimedia Commons</a> and Chase Stokes’ (now graduated with his PhD!) VisXVision workshop paper on <a href="https://arxiv.org/pdf/2609.22477">Visual Embellishments are Potential Distractions in Double-Column Reading</a> (with Cindy Xiong’s student Songwen Hu)</p>
+        </article>
       </div>
     </section>
 
     <section class="signoff">
-      <p class="see-you">We hope to see you there!</p>
-      <ul class="hosts">
-        <li>Nicole Sultanum, Vidya Setlur <span>Tableau</span></li>
-        <li>Tamara Munzner <span>UBC</span></li>
-        <li>Jeffrey Heer <span>Ridge AI / UW</span></li>
-        <li>Leilani Battle <span>UW</span></li>
-        <li>Marti Hearst <span>UC Berkeley</span></li>
-      </ul>
+      <h2 class="section-title">We hope to see you there!</h2>
+      <div class="hosts">
+        <div>
+          <h3>Tableau</h3>
+          <ul>
+            <li><a href="https://www.nicolesultanum.com/">Nicole Sultanum</a></li>
+            <li><a href="https://www.vidyasetlur.com/">Vidya Setlur</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>UBC</h3>
+          <ul>
+            <li><a href="https://www.cs.ubc.ca/~tmm/">Tamara Munzner</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>UW / Ridge AI</h3>
+          <ul>
+            <li><a href="https://jheer.org/">Jeffrey Heer</a> <span>Ridge AI / UW</span></li>
+            <li><a href="https://homes.cs.washington.edu/~leibatt/">Leilani Battle</a> <span>UW</span></li>
+          </ul>
+        </div>
+        <div>
+          <h3>UC Berkeley</h3>
+          <ul>
+            <li><a href="https://people.ischool.berkeley.edu/~hearst/">Marti Hearst</a></li>
+          </ul>
+        </div>
+        <div class="wide">
+          <h3>Utah</h3>
+          <ul>
+            <li><a href="https://www.mcnutt.in/">Andrew McNutt</a> <span>Utah / UBC</span></li>
+            <li><a href="https://kisaacs.github.io/">Kate Isaacs</a></li>
+            <li><a href="https://www.sci.utah.edu/~beiwang/">Bei Wang</a></li>
+            <li><a href="https://jalevine.bitbucket.io/">Josh Levine</a></li>
+            <li><a href="https://cspaul.com/">Paul Rosen</a></li>
+            <li><a href="https://www.sci.utah.edu/~chris/">Chris Johnson</a></li>
+            <li><a href="https://www.sci.utah.edu/people/pascucci.html">Valerio Pascucci</a></li>
+            <li><a href="https://www.cs.utah.edu/~kirby/">Mike Kirby</a></li>
+            <li><a href="https://alexander-lex.net/">Alex Lex</a> <span>TU Graz / Utah</span></li>
+          </ul>
+        </div>
+      </div>
     </section>
   </main>
+
+  <footer>West Coast / Utah Party at VIS 26 &middot; Not an official IEEE VIS event</footer>
 
   <script src="script.js"></script>
 </body>
