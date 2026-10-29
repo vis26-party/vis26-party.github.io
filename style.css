@@ -142,6 +142,8 @@ section { padding-top: 44px; }
 
 .card .btn { margin-top: auto; }
 
+.card.how { grid-column: 1 / -1; }
+
 .countdown {
   display: flex;
   gap: 6px;
@@ -191,6 +193,12 @@ section { padding-top: 44px; }
   margin-top: 16px;
   border: 1px solid var(--line);
   border-radius: 10px;
+}
+
+.subhead {
+  margin: -14px 0 20px;
+  font: 500 1.2rem var(--slab);
+  color: var(--brown);
 }
 
 .news { display: grid; gap: 16px; }
