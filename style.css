@@ -288,3 +288,5 @@ footer {
   .hosts { grid-template-columns: 1fr; }
   .map { height: 240px; }
 }
+
+.news p.more { margin-top: 8px; font-weight: 600; }
